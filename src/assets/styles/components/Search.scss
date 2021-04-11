@@ -1,0 +1,24 @@
+.searchbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox__title{
+    color: white;
+    margin: 2%;
+}
+.searchbox__input{
+    border: 1px solid white ;
+    border-radius: 5rem;
+    width: 60%;
+    background-color: #ffffff46;
+    padding: 0.6rem;
+    
+}
+.searchbox ::placeholder{
+    color: white;
+}
+.searchbox__input:focus{
+    outline: 2px solid white;
+}
