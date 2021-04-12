@@ -1,14 +1,16 @@
 import React from 'react'
 import '../assets/styles/components/Header.scss'
+import logo from '../assets/static/logo-iker.svg'
+import userIcon from '../assets/static/user.svg'
 
 const Header = () => (
     <header className="header">
         <div className="header__logo">
-            <a href="index.html"><img src="/img/logo-iker.svg"/></a>
+            <a href="index.html"><img src={logo}/></a>
         </div>
         <div className="header__menu">
             <div className="header__menu--not-dropdown">
-                <img src="/img/user.svg" alt=""/>
+                <img src={userIcon} alt=""/>
                 <span>Perfil</span>
             </div>
             <div className="header__menu--dropdown">

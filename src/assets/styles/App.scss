@@ -1,8 +1,10 @@
+@import "./Var.scss";
+
 *{
     margin: 0px;
-    font-family: 'Mulish', sans-serif;
+    font-family: $theme-font;
 }
 html{
     min-height: 100%;
-    background-color: #834dfc;
+    background-color: $main-color;
 }
